@@ -1,0 +1,40 @@
+{
+    "name": "R project",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/python:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "r.rterm.linux": "/usr/local/bin/radian",
+                "r.bracketedPaste": true,
+                "r.plot.useHttpgd": true,
+                "[r]": {
+                    "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
+                },
+                "terminal.integrated.defaultProfile.linux": "Fish"
+            },
+            "extensions": [
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "GitLab.gitlab-workflow",
+                "RDebugger.r-debugger",
+                "REditorSupport.r",
+                "SonarSource.sonarlint-vscode",
+                "TianyiShi.rmarkdown",
+                "Tyriar.sort-lines",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "charliermarsh.ruff",
+                "dongli.python-preview",
+                "eamodio.gitlens",
+                "formulahendry.code-runner",
+                "geddski.macros",
+                "ionutvmi.path-autocomplete"
+            ]
+        }
+    }
+}
