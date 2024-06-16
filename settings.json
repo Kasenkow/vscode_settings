@@ -1,0 +1,176 @@
+{
+    // Window
+    "window.commandCenter": true,
+    "window.newWindowDimensions": "inherit",
+    // Editor
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.detectIndentation": false,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.rulers": [
+        120
+    ],
+    "editor.showFoldingControls": "always",
+    // Workbench
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    // VIM
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "$"
+            ],
+            "after": [
+                "g",
+                "_"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "_"
+            ],
+            "after": [
+                "$"
+            ]
+        }
+    ],
+    // Terminal
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.shellIntegration.enabled": true,
+    // http
+    "http.proxyAuthorization": null,
+    // Files
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.history/**": true,
+        "**/History_**": true,
+        "**/__pycache__/**": true
+    },
+    "files.trimTrailingWhitespace": true,
+    // Git
+    "git.autofetch": true,
+    "git.autofetchPeriod": 600,
+    // Python
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.analysis.ignore": [
+        "todo"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "macros": { // Note: this requires macros extension by publisher:"geddski"
+        "pythonExecSelectionAndCursorDown": [
+            "python.execSelectionInTerminal",
+            "cursorDown"
+        ]
+    },
+    // R
+    "r.rpath.linux": "/usr/local/bin/R",
+    "r.debugger.timeouts.startup": 20000,
+    "r.bracketedPaste": true,
+    "r.plot.defaults.colorTheme": "vscode",
+    "r.plot.defaults.fullWindowMode": true,
+    "r.plot.useHttpgd": true,
+    "r.rterm.linux": "/usr/local/bin/radian",
+    "r.sessionWatcher": true,
+    "r.session.viewers.viewColumn": {
+        "plot": "Active",
+        "viewer": "Active",
+        "view": "Active",
+        "helpPanel": "Active"
+    },
+    "[r]": {
+        "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?",
+        "editor.insertSpaces": true
+    },
+    // Other
+    "debug.console.fontSize": 12,
+    "chat.editor.fontSize": 12,
+    "emmet.triggerExpansionOnTab": true,
+    "markdown.preview.fontSize": 12,
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ],
+    "grammarly.config.documentDialect": "british",
+    "git.ignoreMissingGitWarning": true,
+    "yaml.schemas": {
+        "file:///c%3A/Users/ankase.GFK/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "redhat.telemetry.enabled": false,
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "995428b4-486f-40aa-a611-97d5f8ccf209",
+            "enabled": true,
+            "name": "My jira.gfk.com Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "jira.gfk.com",
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "jira.gfk.com",
+        "projectKey": "MP"
+    },
+    "remote.SSH.configFile": "C:\\Users\\ankase.GFK\\.ssh\\config",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "properties": false
+    },
+    "csv-preview.separator": ";",
+    "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+    },
+    "jupyter.askForKernelRestart": false,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "hediet.vscode-drawio.resizeImages": null,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "github.copilot.advanced": {},
+    "remote.autoForwardPortsSource": "hybrid",
+}
